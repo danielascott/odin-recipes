@@ -4,10 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odin Recipes</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <h1>Odin Recipes</h1>
-    <p><a href="recipes/goulash.html">Chef John's American Goulash</a></p>
-    <p><a href="recipes/pancakes.html">Chef Dan's Buttermilk Pancakes</a></p>
+    <div style="display: flex; justify-content: center;">
+      <select onchange="location = this.value;">
+        <option value="">Select an Option</option>
+        <option value="recipes/goulash.html">Chef John's American Goulash</option>
+        <option value="recipes/pancakes.html">
+          Chef Dan's Buttermilk Pancakes
+        </option>
+      </select>
+    </div>
+    </select>
   </body>
+  <footer>
+    <p>
+      Created by Daniel A Scott
+    </p>
+  </footer>
 </html>

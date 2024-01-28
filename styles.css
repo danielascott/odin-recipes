@@ -1,0 +1,42 @@
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 4px;
+  }
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0 0 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0 0 20px;
+  text-align: center;
+}
+
+.recipe {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recipe ul,
+.recipe ol {
+  flex: 1;
+}
+
+footer {
+  margin-top: auto;
+  text-align: center;
+}
